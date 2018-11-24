@@ -1,0 +1,70 @@
+/* fonts imported from Google */
+@import url('https://fonts.googleapis.com/css?family=Dosis:400,800');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+
+.button-body {
+    margin: 45px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.my-button {
+    background: white;
+    border: 1px solid #939393;    
+    padding: 25px;    
+    cursor: pointer;    
+    border-radius: 20px;
+    text-transform: uppercase;    
+}
+
+.my-button:hover {
+    background: rgb(0, 0, 0);
+    border: 1px solid black;
+    padding: 25px;
+    cursor: pointer;
+    color: #efefef !important;
+    transition: .2s ease-in-out;
+}
+
+th {
+    font-family: 'Dosis', sans-serif;
+    color: #ff0a72;
+}
+figcaption {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+}
+
+.image-small {
+    width: 100%;
+    margin-top: 97px;    
+}
+
+tbody tr td:nth-child(1) {
+    font-weight: 600;
+}
+.modal-footnote {
+    background: #efefef;
+    text-align: center;
+    padding: 7px;
+    color: #606060;
+    border-radius: 5px;
+}
+.table-shadow {
+    box-shadow: 0px 2px 12px #999;
+}
+/* Overwritten CSS */
+.table td, .table th {
+    border-top: 1px solid #f6f6f6 !important;
+}
+.modal-content {
+    box-shadow: 1px 2px 10px #505050;
+}
+
+/* Responsiveness */
+@media only screen and (max-width: 990px) {
+    .image-small {
+        margin: 0;
+    }
+}
